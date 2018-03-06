@@ -1,0 +1,31 @@
+{
+  "name": "coin_change",
+  "version": "1.0.0",
+  "description": "simple client for transfer some coin or score",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel -p 3030 ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoTerentev/coin_transfer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoTerentev/coin_transfer/issues"
+  },
+  "homepage": "https://github.com/RoTerentev/coin_transfer#readme",
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.6.2"
+  }
+}
