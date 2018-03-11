@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel -p 3030 ./src/index.html"
+    "dev": "parcel -p 3030 ./src/index.html",
+    "build": "parcel build ./src/index.html --no-minify -d ./build"
   },
   "repository": {
     "type": "git",
